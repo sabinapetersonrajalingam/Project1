@@ -1,7 +1,12 @@
 ---
-title: "Project1"
+title: "Sabina Peterson Rajalingam's Website"
+image: SabinaImage.jpeg
+2toc: false
+about:
+  template: jolla
+  image-width: 11em
+  image-shape: rounded
+
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hi my name is Sabina.
