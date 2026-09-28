@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+format: html
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+breed_rank_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-02-01/breed_rank.csv')
+
+library(ggplot2)
+```
+
+
+```
+ggplot(breed_rank_all, aes(x = )) + 
+    geom_point()
+
+```
