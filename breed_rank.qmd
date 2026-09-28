@@ -1,21 +1,26 @@
 ---
-title: "Untitled"
+title: "Breed Rankings"
 format: html
 ---
 
 ```{r}
 library(tidyverse)
+library(ggplot2)
 ```
 
 ```{r}
 breed_rank_all <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-02-01/breed_rank.csv')
 
-library(ggplot2)
+
 ```
 
 
-```
-ggplot(breed_rank_all, aes(x = )) + 
-    geom_point()
+```{r}
+ggplot(breed_rank_all, aes(x = `2013 Rank`, y = `2020 Rank`)) + 
+    geom_point() +
+    geom_abline(slope = 1, intercept = 0, color = "red") +
+    labs(
+        title = "Dog Breed Rankings 2013 vs 2020", 
+    )
 
 ```
