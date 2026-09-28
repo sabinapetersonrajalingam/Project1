@@ -1,0 +1,19 @@
+---
+title: "Simpson Episodes"
+subtitle: "Data from Nicolas Foss"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+simpsons_episodes <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_episodes.csv')
+```
+
+
+```{r}
+ggplot(simpsons_episodes, aes(x = views, y = imdb_rating)) + 
+    geom_point() +
+    labs(title = "Rating vs Views of Simpsons Episodes" )
+```

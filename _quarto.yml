@@ -5,10 +5,15 @@ project:
 website:
   title: "Sabina Peterson Rajalingam's Website"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+    - text: About Me
+      href: about.html
+    - text: Data Viz
+      menu: 
+      - text: Dog Breed Ranks
+        href: breed_rank.html
+      - text: Simpsons Episodes
+        href: simpson_episodes.html
 
 format:
   html:
