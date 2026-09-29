@@ -5,8 +5,8 @@ image: SabinaImage.jpeg
 about:
   template: jolla
   image-width: 11em
-  image-shape: rounded
+  image-shape: round
 
 ---
 
-Hi my name is Sabina.
+Welcome to my website! I am a student-athlete at Pomona College majoring in Physics. Aside from soccer, I love to dance, read, and go on adventures!
