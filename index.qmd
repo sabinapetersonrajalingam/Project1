@@ -6,6 +6,10 @@ about:
   template: jolla
   image-width: 11em
   image-shape: round
+  links:
+  - text: GitHub
+    href: https://github.com/sabinapetersonrajalingam/sabinapetersonrajalingam.github.io
+    target: _blank 
 
 ---
 
