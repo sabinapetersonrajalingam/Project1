@@ -1,6 +1,6 @@
 ---
 title: "Breed Rankings"
-subtitle: "The data this week comes from the American Kennel Club and from KKakey."
+subtitle: "The data comes from the American Kennel Club and from KKakey."
 format: html
 execute: 
   warning: false 
