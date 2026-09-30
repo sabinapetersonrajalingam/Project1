@@ -1,6 +1,6 @@
 ---
 title: "Simpson Episodes"
-subtitle: "Data from Nicolas Foss"
+subtitle: "This dataset is a Simpsons Dataset from Kaggle which was made available to the public by Prashant Banerjee. Thank you to Nicolas Foss, Ed.D., MS with Iowa HHS who curated the data set."
 format: html
 execute: 
   warning: false 
